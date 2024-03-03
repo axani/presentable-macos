@@ -37,3 +37,20 @@ $ touch ~/.hushlogin
 ```
 
 When macOS sees this file, the last login message doesn't appear anymore.
+
+## Finder
+
+The Finder is great for giving an overview of a project's structure. To keep the focus on what you want to show, these are some things to keep in mind:
+
+- Always hide the sidebar if you don't need it to show something.
+- Prefer the list view and unfold the folders you want to show.
+- Sort the list by name. Otherwise files and folders will jump after editing.
+- Always show file extensions.
+
+### Hidden Files
+
+Depending on the situation it can make sense to always show hidden files. This is especially important in an development environment. For presentations hidden files can be distracting or even confusing. 
+
+To swiftly toggle the display of hidden files you can use this shortcut in Finder:
+
+- **Toggle Hidden Files:** <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd>
