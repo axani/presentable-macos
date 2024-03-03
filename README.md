@@ -54,3 +54,11 @@ Depending on the situation it can make sense to always show hidden files. This i
 To swiftly toggle the display of hidden files you can use this shortcut in Finder:
 
 - **Toggle Hidden Files:** <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd>
+
+## Git
+
+There are certain files that you probably don't want ever to be part of your commits. Instead of ignoring those unwanted files every time when you create a repository, you can add them to your global Git ignore file:
+
+```sh
+$ echo .DS_Store >> ~/.config/git/ignore
+```
